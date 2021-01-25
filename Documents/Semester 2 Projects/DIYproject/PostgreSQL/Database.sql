@@ -17,3 +17,20 @@ CONSTRAINT fk_author
    FOREIGN KEY(Author) 
    REFERENCES Users(UserID)
 );
+
+INSERT INTO Users (firstname, lastname, email, ispremiummember)
+VALUES ('marija', 'bolic', 'marija@email.com', true);
+
+ALTER TABLE Users ALTER COLUMN ispremiummember SET DEFAULT False;
+
+INSERT INTO Users (firstname, lastname, email)
+VALUES ('first1', 'last1', 'user@email.com');
+
+SELECT * FROM Users;
+
+INSERT INTO Recipes (createddate, author, recipecontent, category, isprivate, ispremium, isdeleted)
+VALUES (CURRENT_DATE, 1, 'Bake a cake', 'Cakes', true, true, false);
+
+SELECT * FROM Recipes;
+
+
