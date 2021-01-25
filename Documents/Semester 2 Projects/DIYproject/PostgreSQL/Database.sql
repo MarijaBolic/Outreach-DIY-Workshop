@@ -18,6 +18,7 @@ CONSTRAINT fk_author
    REFERENCES Users(UserID)
 );
 
+/* Added sample data for Users and set premium to false*/ 
 INSERT INTO Users (firstname, lastname, email, ispremiummember)
 VALUES ('marija', 'bolic', 'marija@email.com', true);
 
@@ -28,6 +29,7 @@ VALUES ('first1', 'last1', 'user@email.com');
 
 SELECT * FROM Users;
 
+/* Added sample data for Recipes*/ 
 INSERT INTO Recipes (createddate, author, recipecontent, category, isprivate, ispremium, isdeleted)
 VALUES (CURRENT_DATE, 1, 'Bake a cake', 'Cakes', true, true, false);
 
