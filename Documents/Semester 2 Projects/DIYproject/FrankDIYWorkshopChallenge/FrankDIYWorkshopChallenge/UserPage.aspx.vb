@@ -5,4 +5,7 @@
 
     End Sub
 
+    Protected Sub ViewButton_Click(sender As Object, e As EventArgs) Handles ViewButton.Click
+        Response.Redirect("ViewRecipes.aspx")
+    End Sub
 End Class

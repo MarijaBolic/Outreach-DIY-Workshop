@@ -82,6 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="UserPage.aspx" />
+    <Content Include="ViewRecipes.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -109,6 +110,13 @@
     </Compile>
     <Compile Include="UserPage.aspx.vb">
       <DependentUpon>UserPage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ViewRecipes.aspx.designer.vb">
+      <DependentUpon>ViewRecipes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewRecipes.aspx.vb">
+      <DependentUpon>ViewRecipes.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>

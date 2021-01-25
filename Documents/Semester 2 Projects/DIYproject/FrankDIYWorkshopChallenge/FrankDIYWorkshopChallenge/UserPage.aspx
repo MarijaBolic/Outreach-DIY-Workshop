@@ -13,11 +13,11 @@
         <asp:Label ID="TitleLabel" runat="server" Text="Frank's Workshop" Font-Size="Larger"></asp:Label>
         <br />
         </div>
-        <asp:Button ID="ViewButton" runat="server" Text="View Recipes" BackColor="#FFCCCC" Width="205px" />
+        <asp:Button ID="ViewButton" runat="server" Text="View Recipes" BackColor="#FFCCCC" Width="210px" />
         <br />
-        <asp:Button ID="CreateButton" runat="server" Text="Create Recipes" BackColor="#FFCC99" />
+        <asp:Button ID="CreateButton" runat="server" Text="Create Recipes" BackColor="#FFCC99" Width="212px" />
         <br />
-        <asp:Button ID="ManageButton" runat="server" Text="Manage Recipes" BackColor="#FFFFCC" Width="208px" />
+        <asp:Button ID="ManageButton" runat="server" Text="Manage Recipes" BackColor="#FFFFCC" Width="210px" />
     </form>
 </body>
 </html>
